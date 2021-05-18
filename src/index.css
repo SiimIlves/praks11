@@ -1,0 +1,38 @@
+.add-recipe {
+  font-size: 25px;
+}
+
+.recipe-list {
+  border: 1px solid black;
+  border-style: solid;
+  margin: 5px;
+  box-shadow: 2px 3px;
+  padding: 5px;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+.newrecipebox {
+  display:flex;
+ flex-direction: column;
+ width: 70vw;
+ margin-left: 120px;
+ margin-top: 50px;
+}
+
+label {
+  margin-top: 15px;
+}
+
+.submit {
+  margin-top: 20px;
+  height: 60px;
+}
+
+h2 {
+  font-weight: 900;
+}
+
