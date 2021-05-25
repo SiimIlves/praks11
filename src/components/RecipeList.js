@@ -11,7 +11,7 @@ const RecipeList = ({ recipe }) => {
             <p>{recipe.tags[0]}</p> <p>{recipe.tags[1]}</p>
             <p>{recipe.duration} min</p>
             <Link to={`/recipes/${index}`}>Vaata lähemalt</Link>
-            </div> 
+            </div> // vältida <a href=...> kasutamist kui andmebaasi just andmeid ei salvestata
         );
       })}
     </div>
